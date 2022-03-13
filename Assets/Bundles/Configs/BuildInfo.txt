@@ -1,0 +1,10 @@
+{
+  "GameVersion": "0.1.0",
+  "InternalGameVersion": 0,
+  "CheckVersionUrl": "https://TheLight.gameframework.cn/Resources/{0}Version.txt",
+  "WindowsAppUrl": "https://TheLight.gameframework.cn",
+  "MacOSAppUrl": "https://TheLight.gameframework.cn",
+  "IOSAppUrl": "https://TheLight.gameframework.cn",
+  "AndroidAppUrl": "https://TheLight.gameframework.cn",
+  "END_OF_JSON": ""
+}

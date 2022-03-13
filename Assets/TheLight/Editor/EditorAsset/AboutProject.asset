@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ca45437d8c54a5e46a45054a3b1434f7, type: 3}
+  m_Name: AboutProject
+  m_EditorClassIdentifier: 
+  Icon: {fileID: 2800000, guid: c657ef0995fdc8849867d64377b1354f, type: 3}
+  Name: TheLight
+  Version: 1.1
+  Author: "\u6982\u5FF5\uFF1A\u9648\u715C\u6052  \u7B56\u5212\uFF1A\u9646\u5468\u51EF 
+    \u7F8E\u672F\uFF1A\u5B8B\u98DE\u7FD4 \u9648\u84C9\u84C9  \u7A0B\u5E8F\uFF1A\u7956\u6210\u9F99"
+  Address: https://github.com/chenglongzu/TheLight
+  data:
+  - Data: 2022.03.13
+    Content: "\u6574\u7406\u521D\u59CB\u8D44\u6E90\uFF0C\u642D\u5EFA\u7A0B\u5E8F\u57FA\u672C\u6846\u67B6\uFF0C\u6D4B\u8BD5\u57FA\u672C\u6D41\u7A0B\u3002"
