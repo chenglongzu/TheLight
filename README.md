@@ -1,11 +1,15 @@
 # The Light 开发文档
-# [TheLight](https://github.com/chenglongzu/TheLight) 
+# [TheLight项目地址](https://github.com/chenglongzu/TheLight) 
 
 # The Light资源管理
 ### 资源管理
 资源管理使用Assetbundle管理，使用Assetbundle管理的好处就是节省内存资源，资源在没被使用时及时从内存中清除出去，避免性能浪费。
-### 项目资源
-项目中游戏里会用到的资源（游戏场景中的资源或是需要动态生成的资源）会放到Bundle文件夹里，这里的资源都是需要单独打包出来并且=在游戏运行时使用的，所以其他不会被使用到的资源可以放到一个新的文件夹比如“Arts”。
+### 项目资源管理
+Bundles 项目中游戏里会用到的资源（游戏场景中的资源或是需要动态生成的资源）会放到Bundle文件夹里，这里的资源都是需要单独打包出来并且会在游戏运行时使用的，所以其他不会被使用到的资源可以放到一个新的文件夹比如“Arts”。
+GameFramework 开源的游戏客户端框架，存放开发中的常用类库和通用类。
+Resources 基本上不会用到，部分第三方插件可能会从中加载数据
+TheLight 项目的编辑器扩展的部分会写在里面，菜单栏中多了一个TheLight选项是咱们自己扩展的。
+ThirtParty 第三方的插件；ConsolePro控制台插件，更方便的看日志；Demigiant代码动画补间插件；Sirenix编辑器扩展插件；Animancer第三方的动画控制系统，后面可能不会用，但一些部分相比传统Animator确实要好不少。
 
 # The Light角色系统
 ### 角色配置
